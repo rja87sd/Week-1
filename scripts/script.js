@@ -1,6 +1,6 @@
 "use strict";
-const body = document.querySelector("body");
-body.style.backgroundColor = "blue";
+// const body = document.querySelector("body");
+// body.style.backgroundColor = "blue";
 
 console.log("Code running line 5.");
 
@@ -78,4 +78,11 @@ if (age > 18 || age < 21) {
 
 
 
-
+function calculateSum(array){
+  let sum = 0;
+  for (let i = 0; i < array.length; i++){
+    document.write(`<p>Value of i: ${i} </p>`);
+    sum += array[i];
+    console.log(array[i]);
+  };
+};
